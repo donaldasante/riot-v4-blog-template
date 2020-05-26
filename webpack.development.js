@@ -11,7 +11,6 @@ module.exports = merge(common, {
         open: true,
         clientLogLevel: 'info',
         compress: true,
-        host: '127.0.0.1',
         hot: true,
         watchOptions: {
             poll: true
