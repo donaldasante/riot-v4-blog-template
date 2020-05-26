@@ -1,18 +1,19 @@
 {
-    "name": "riotBlog4",
+    "name": "riot-blog-template",
     "authors": "Donald Asante",
     "license": "MIT",
     "engines": {
-        "node": ">=4.0.0"
+        "node": ">=8.0.0"
     },
     "scripts": {
         "start": "webpack-dev-server --config webpack.development.js",
         "build-dev": "webpack --config webpack.development.js",
         "build": "webpack --config webpack.production.js"
     },
-    "version": "1.0.0",
+    "version": "1.0.1",
     "description": "riot V4 template",
-    "repository": {},
+    "homepage": "",
+    "repository": "donaldasante/riot-v4-blog-template",
     "dependencies": {},
     "devDependencies": {
         "@babel/core": "^7.9.6",
