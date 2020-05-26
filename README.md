@@ -1,6 +1,6 @@
 # RIOT V4 Blog Template
-This is a simple [riot] (https://riot.js.org/) v4 blog example application. It was created to showcase some of the useful features of Riot.js library.
-It is also dev and production ready and a good starting point for creating a Riot SPA.
+This is a simple [riot](https://riot.js.org/) v4 blog example application. It was created to showcase some of the useful features of Riot.js library.
+It is also dev and production ready and a good starting point for creating a Riot SPA. The application uses browser local storage for persistence.
 
 ## Run locally
 
@@ -31,7 +31,7 @@ $ npm run build
 ```
 
 To run production or dev build
- - Install [live-server] (https://www.npmjs.com/package/live-server)
+ - Install [live-server](https://www.npmjs.com/package/live-server)
  - Goto public folder (/public)
  - build dev or production packages
  - Run live-server
