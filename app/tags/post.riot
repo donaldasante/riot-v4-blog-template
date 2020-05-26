@@ -1,0 +1,46 @@
+<post>
+    <div class="post">
+       <h3 class="post_title">
+         <a if={props.excerpt} href="/{post.url}">{post.title}</a>
+         <a if={!props.excerpt} href="/">Back</a>
+       </h3>
+       <div class="meta">
+         <p>
+           <small>by </small> <span>{post.author}</span>
+           <small>, posted in </small> <span>{post.category}</span>
+         </p>
+       </div>
+       <p>{props.excerpt?post.excerpt:post.content}</p>
+       <hr>
+    </div>
+    <style>
+        :host .post_title {
+            margin: 0;
+        }
+        :host .post {
+            margin-bottom: 15px;
+        }
+        :host .post_title a {
+            text-decoration: underline;
+            font-weight: 100;
+        }
+        :host .meta {
+            margin-bottom: 15px;
+            font-style: italic;
+            color: #999;
+        }
+        :host .meta span {
+            font-weight: 500;
+        }
+    </style>
+
+  <script>
+    export default {
+
+        onBeforeMount() {
+            this.dbMixin.init(this);
+            //console.log(this);
+        }
+    }
+  </script>
+</post>

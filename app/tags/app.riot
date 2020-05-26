@@ -1,0 +1,13 @@
+<app>
+    <script>
+        import { posts,dbMixin } from '../mixins/mixin';
+        export default { 
+            posts,
+            dbMixin, 
+            onBeforeMount() {
+                dbMixin.init(this);
+                this.posts = posts;
+            }
+        }      
+    </script>
+</app>
