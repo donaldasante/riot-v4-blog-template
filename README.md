@@ -4,7 +4,7 @@ It is also dev and production ready and a good starting point for creating a Rio
 
 ## Run locally
 
-Download or clone this repo.
+Download or clone this repo or use npm install.
 
 Install packages.
 
